@@ -111,7 +111,7 @@ void action_tag(int argc, char** argv, struct sqlite3* db) {
             );
         } else {
             sql = TOSTRING(
-                DELETE FROM history_tags WHERE entry_id = ?;
+                DELETE FROM history_tags WHERE entry_id = @entry_id;
             );
         }
 
