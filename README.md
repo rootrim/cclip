@@ -48,6 +48,10 @@ Gentoo package in available in [heather7283-overlay](https://github.com/heather7
 
 If you use Void Linux, you can install cclip from the [blackhole-vl(unofficial repo)](https://github.com/Event-Horizon-VL/blackhole-vl).
 
+#### Nix/NixOS
+
+This repository has a flake.nix file. You could install it by adding it as a flake input.
+
 ## Usage
 > [!IMPORTANT]
 > cclipd uses wlr_data_control_unstable_v1 wayland protocol for clipboard interaction. Your compositor must support it in order for you to use cclip.
