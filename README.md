@@ -44,6 +44,10 @@ If you use Arch Linux, you can install cclip from the [AUR](https://aur.archlinu
 
 Gentoo package in available in [heather7283-overlay](https://github.com/heather7283/heather7283-overlay) as `app-misc/cclip`.
 
+#### Void Linux
+
+If you use Void Linux, you can install cclip from the [blackhole-vl(unofficial repo)](https://github.com/Event-Horizon-VL/blackhole-vl).
+
 ## Usage
 > [!IMPORTANT]
 > cclipd uses wlr_data_control_unstable_v1 wayland protocol for clipboard interaction. Your compositor must support it in order for you to use cclip.
